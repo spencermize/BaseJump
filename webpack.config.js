@@ -76,7 +76,7 @@ module.exports = {
 	},
 	plugins: [
 		new MiniExtractPlugin({
-			filename: 'css/style.css'
+			filename: 'css/main.css'
 		}),
 		new CompressionPlugin({
 			test: /\.js(\?.*)?$/i
